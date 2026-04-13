@@ -1,0 +1,68 @@
+body{
+    background-color: azure;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+}
+
+nav button{
+    width: 120px;
+    height: 45px;
+    background-color: black;
+    color: white;
+}
+.soluciones img{
+    width: 350px;
+}
+.soluciones button{
+    background-color: black;
+    color: white;
+}
+
+.Logo{
+    width: 35px;
+    height: 35px;
+}
+.servicios img{
+    width: 200px;
+    height: 200px;
+}
+.servicios section{
+    border: 10px;
+    border-color: black;
+
+}
+.servicios article{
+    font-family: 'Courier New', Courier, monospace;
+}
+.servicios{
+    display: flex;
+    flex-direction: column;
+}
+.odiv{
+    display: flex;
+    justify-content:space-between;
+}
+.tdiv{
+    display:flex;
+    justify-content:space-between;
+}
+
+.teams img{
+    height: 250px;
+    width:250px;
+}
+.teams button{
+    background-color: black;
+    color: white;
+}
+
+.teams{
+    display: flex;
+}
+
+.contacto button{
+    background-color: black;
+    color: white;
+}
