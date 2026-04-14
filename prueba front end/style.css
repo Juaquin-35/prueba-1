@@ -4,6 +4,17 @@ body{
 nav{
     display: flex;
     justify-content:space-between;
+    align-items: center;
+    border-color: black solid;
+    border: 1px;
+    width:100%;
+    border-style: solid;
+    position:fixed;
+    background-color: white;
+    height:50px;
+    top: 0px;
+    margin-left:-9px;
+    padding: 0;
 }
 
 nav button{
@@ -11,58 +22,242 @@ nav button{
     height: 45px;
     background-color: black;
     color: white;
+    font-weight: bold;
+    border-style:solid;
+    border-radius: 3px;
+    margin-right:20px;
+}
+.btn-nav:hover{
+    background-color:white;
+    color:black;
+    cursor: pointer;
 }
 .soluciones img{
     width: 350px;
+    margin: 20px;
+    border-radius:3px;
 }
 .soluciones button{
     background-color: black;
     color: white;
+    font-weight: bold;
+    width:175px;
+    height:40px;
+    font-size:10px;
+    border-style:solid;
+    border-radius: 3px;
+}
+.soluciones article{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.soluciones{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border: 2px;
+    border-style: solid;
+    width: 900px;
+    background-color: white;
+    margin-top: 35px;
+}
+.orr{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+.sol:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }
 
 .Logo{
     width: 35px;
     height: 35px;
+    margin-left: 10px;
 }
 .servicios img{
-    width: 200px;
+    width: 350px;
     height: 200px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 10px;
+    transition:transform 0.5s ease;
+    border-radius:3px;
+}
+.mag:hover{
+    transform:scale(1.05);
+    overflow: hidden;
 }
 .servicios section{
-    border: 10px;
+    border: 2px;
     border-color: black;
+    border-style: solid;
+    width: 400px;
+    margin-top:15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
 
 }
 .servicios article{
+    width: 90%;
     font-family: 'Courier New', Courier, monospace;
+    display:flex;
+    justify-content: space-between;
+    align-content: space-evenly;
+}
+.ne{
+    font-weight: bold;
 }
 .servicios{
     display: flex;
     flex-direction: column;
+    flex-grow:2;
+    
 }
 .odiv{
     display: flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
 }
 .tdiv{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
 }
 
 .teams img{
-    height: 250px;
-    width:250px;
+    height: 350px;
+    width:350px;
+    border:2px;
+    border-style: solid;
+    margin-left:50px;
+    border-radius:3px;
 }
 .teams button{
+    border-color: black;
+    border-radius: 5px;
+    color: black;
+    cursor:pointer;
+    width:450px;
+    background-color: white;
+    font-weight: bold;
+    height:40px;
+}
+.hob:hover{
     background-color: black;
     color: white;
 }
 
 .teams{
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:20px;
 }
-
+.teams article{
+    margin: 20px;
+}
+.tem{
+    display: flex;
+    border:2px;
+    border-color: black;
+    border-style: solid;
+    align-items: center;
+    width:550px;
+    background-color: white;
+}
+.labs{
+    margin:15px;
+    width: 100;
+    height:30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-right:5px;
+    justify-content: space-between;
+}
+.labs h2{
+    color: black;
+}
+.labs h4{
+    background-color:black;
+    border:5px;
+    border-style: solid;
+    border-color: black;
+}
+.tem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .contacto button{
     background-color: black;
     color: white;
+    cursor:pointer;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width:600px;
+    height:30px;
+    border-style: solid;
+    border-radius:3px;
+}
+.cont:hover{
+    background-color: white;
+    color:black;
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px;
+    border-style: solid;
+    background-color: white;
+    margin-top:20px;
+    width:800px;
+    justify-content: space-between;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+
+}
+.che{
+    display: flex;
+}
+.TES{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr{
+    height: 2px;
+    background-color: black;
+}
+.contacto label{
+    font-size: 10px;
+    font-weight: bold;
+}
+.clac{
+    width: 600px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+#mens{
+    height: 100px;
+}
+.arr{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
